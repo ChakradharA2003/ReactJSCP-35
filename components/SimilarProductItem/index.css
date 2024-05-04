@@ -1,0 +1,44 @@
+.product-details-list {
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+  width: 200px;
+  margin: 20px;
+}
+.similar-product-image {
+  height: 150px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 16px;
+}
+.brand {
+  font-size: 12px;
+  margin-top: 0px;
+}
+.price-and-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  height: 40px;
+  width: 50px;
+  padding: 7px;
+}
+.ratings {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.rating-images {
+  height: 15px;
+  width: 15px;
+}
